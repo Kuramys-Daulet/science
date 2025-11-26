@@ -191,7 +191,7 @@
 
     <div class="map-wrapper">
         <div class="mermaid">
-            graph TD
+            graph LR
             %% ОПРЕДЕЛЕНИЕ УЗЛОВ
             ROOT[Ғылыми зерттеу]
             Phil[Философиялық алғышарттар]
@@ -206,8 +206,22 @@
             Qual[Сапалық әдістер]
             Mixed[Аралас әдістер]
 
+
             experiment[Эксперимент]
             survey[Сауалнама]
+
+            disriptive[Сипаттамалық әдіс]
+            narrative[Нарративті зерттеу]
+            phenomenological[Феноменологиялық зерттеу]
+            grounded[Теорияға негізделген зерттеу]
+            ethnography[Этнография]
+            caseStudy[Кейс-стади]
+
+            convergent[Аралас әдістердің конвергентті дизайны]
+            explanatory[Аралас әдістердің түсіндірмелі дизайны]
+            exploratory[Аралас әдістердің ізденістік тізбекті дизайны]
+            complex[Күрделі аралас әдістер дизайны]
+
 
 
             %% СВЯЗИ
@@ -226,6 +240,20 @@
 
             Quan --> experiment
             Quan --> survey
+
+            Qual --> disriptive
+            Qual --> narrative
+            Qual --> phenomenological
+            Qual --> grounded
+            Qual --> ethnography
+            Qual --> caseStudy
+
+            Mixed --> convergent
+            Mixed --> explanatory
+            Mixed --> exploratory
+            Mixed --> complex
+
+
 
 
 
